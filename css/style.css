@@ -1,4 +1,112 @@
+body {
+  width: 960px;
+  margin: auto;
+}
+
+header img {
+  float:left;
+}
+
+nav {
+  float: right;
+}
+
+#delicious {
+font-weight: 400px;
+font-family: cursive;
+font-size: 25px;
+float: left;
+color: black;
+margin-left: 15px;
+}
+
+#unorderedlist1 {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+li {
+  display: block;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  float: left;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+p {
+  margin-top: 20px;
+  color: rgb(88, 85, 85);
+}
+
+#pizza {
+  margin-top: 15px;
+}
+
 #notebook {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+}
+
+#recipe1 {
+position: absolute;
+top: 30px;
+left: 0;
+width: 100%;
+margin: 50px;
+}
+
+#recipe2 {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+}
+
+#profile {
+margin-top: 100px;
+}
+
+h3 {
+ font-weight: 300;
+ font-size: 20px;
+}
+
+button {
+  color:white;
+  background-color: rgb(194, 5, 5);
+  font-size: 15px;
+  height: 40px;
+  width: 150px;
+  margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #notebook {
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -41,5 +149,5 @@ p {
 }
 
 #delicious {
-  font-family: cursive;
-}
+  font-family: 'Dancing Script', cursive;
+} */
